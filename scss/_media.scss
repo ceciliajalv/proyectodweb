@@ -1,0 +1,180 @@
+@media only screen and (min-width: 576px) and (max-width: 767px) {   
+    .hero {
+        h1 {
+            margin: 1rem;
+        }
+    }
+    div.petalsfa__img, div.hayleybio__img {
+            background-size: 50rem;
+            height: 70vh;
+            background-attachment: fixed;
+    }    
+    #banner {
+        background-position: 50rem;
+    }  
+    iframe.remix {
+            width: 450px;
+    }
+}    
+@media only screen and (min-width: 768px){          
+    h2 {
+        font-size: 2rem;
+    }
+    .hero {
+        h1 {
+            font-size: 3rem;
+            margin: 2rem;
+        }
+    }
+    section#petalsfa, section#hayleybio {
+        height: 90vh;
+    }
+    div.petalsfa__txt, div.hayleybio__txt{
+        height: 90vh;
+        p.bio {
+            font-size: 1rem;
+            margin-left: 2rem;
+        }  
+    }
+    div.petalsfa__img {
+        background-size: 50rem;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+    div.hayleybio__img {       
+        background-color: #FF8CC6;
+        height: 90vh;
+        background-size: 100vh;
+        background-attachment: fixed;
+        background-position-x: right;
+        background-position-y: top;
+        background-repeat: no-repeat;
+    }
+    #banner {
+        background-position: right;
+    }    
+    form {
+        h3 {
+            font-size: 3rem;
+        }    
+    }
+    .citas {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: justify;
+    }
+    .separation-pic {
+        height: 70vh;
+        background-position-y: center;
+        background-attachment: fixed;
+        margin-top: 2rem;
+    }
+    div.stream {
+        margin-left: 2.5rem
+    }
+    iframe.remix {
+        width: 350px;
+    }
+}
+@media (min-width: 1020px) {
+    iframe.remix {
+        width: 460px;
+    }
+    div.petalsfa__txt, div.hayleybio__txt{        
+        p.bio {
+            margin-left: 1rem;
+            margin-right: 0.5rem;
+            text-align: justify;            
+        }  
+    }
+}
+@media (min-width: 1280px) {    
+    h2 {
+        font-size: 2.8rem;
+    }
+    .hero {
+        h1 {
+        font-size: 3.5rem;
+        }
+    }
+    section#petalsfa, section#hayleybio {
+        height: 90vh;
+    }
+    div.petalsfa__txt, div.hayleybio__txt{
+        height: 90vh;
+        p.bio {
+            font-size: 1.2rem;
+        }
+    }
+    div.petalsfa__img {        
+        background-size: contain;
+        height: 90vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color: #EABCD8;
+    }
+    div.hayleybio__img {       
+        background-color: #FF8CC6;
+        height: 90vh;
+        background-size: 100vh;
+        background-attachment: fixed;
+        background-position-x: right;
+        background-position-y: top;
+        background-repeat: no-repeat;
+    }
+    #banner {
+        background-position: right;
+    }
+    form {
+        h3 {
+        font-size: 3rem;    
+        }
+    }
+    iframe.remix {
+        width: 580px;
+    }
+}
+@media (min-height: 928px) {    
+    h2 {
+        font-size: 2.8rem;
+        font-family: $fnt-head;
+    }
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    section#petalsfa, section#hayleybio {
+        height: 90vh;
+    }
+    div.petalsfa__txt, div.hayleybio__txt{
+        height: 90vh;
+    }
+    div.petalsfa__img {        
+        background-size: 100vh;
+        height: 90vh;
+        background-attachment: fixed;
+    }
+    div.hayleybio__img {       
+        background-color: #FF8CC6;
+        height: 90vh;
+        background-size: 95vh;
+        background-attachment: fixed;
+        background-position-x: right;
+        background-position-y: top;
+        background-repeat: no-repeat;
+    }
+    #banner {
+        background-size: cover;
+        background-position: right;
+    }
+    form {
+        h3 {
+        font-size: 3rem;    
+        }
+    }
+    section.contact {
+        height: 83vh;
+    }
+    .separation-pic.img-3, .separation-pic.img-2, .separation-pic.img-1 {
+        background-position-x: center;
+    }
+}

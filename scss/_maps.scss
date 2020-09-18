@@ -1,0 +1,14 @@
+$redes:(
+apple:#8d8d8d,
+fb:#3b5998,
+ig:#bc2a8d, 
+spot:#1DB954, 
+tw:#1DA1F2,
+ytb:#FF0000, 
+);
+
+@each $red, $color in $redes {
+.social__#{$red}:hover{
+filter: invert(41%) sepia(34%) saturate(604%) hue-rotate(260deg) brightness(54%) contrast(86%) drop-shadow(5px 2px 2px $color);
+}
+}

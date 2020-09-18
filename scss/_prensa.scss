@@ -1,0 +1,54 @@
+/* Prensa */
+.caja-cita {
+    width: 100%;
+    margin: 0px;
+    .bg-beige{
+        background-color: $bg-beige;
+    }
+    .citas {
+        padding-left: 1,5rem;
+        padding-right: 1,5rem;
+    }
+    .foot-citas {
+        background-color: $bg-color;
+        text-align: right;
+        color: $src-color;
+        padding: 0.5rem;
+        margin: 0,5rem;
+        a {
+            color: $titulo-color;
+        }
+    }
+    premio {
+        h2{
+            font-size: 3rem;
+            color: $titulo-color;
+            text-align: center;
+        }
+        footer {
+            a {
+                font-size: 1.5rem;
+            }
+        }
+    } 
+    .medal {
+        align-self: center;
+    }       
+}
+.separation-pic {
+    height: 30vh;
+    background-position-y: center;
+    background-size: cover;
+    margin: 2rem 0rem 2rem 0rem;
+}
+.separation-pic.img-1 {
+    background-image: url(../img/hayley-williams.jpg);
+}
+.separation-pic.img-2 {
+    background-image: url(../img/LindseyByrnes_retouched-scaled.jpg);
+    background-position-y: top;
+}
+.separation-pic.img-3 {    
+    background-image: url(../img/story_hayley_williams.jpg);
+    background-position-y: top;
+}

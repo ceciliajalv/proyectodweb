@@ -1,0 +1,70 @@
+/*hero*/
+#banner {
+    height: 100vh;    
+    width: 100%;
+    background-image: url(../img/header.jpg);
+    background-position: 40rem;
+}
+.hero {
+    height: 45vh;
+    background-color: rgba(255, 221, 226, 0.7);
+    padding-left: 3rem;
+    padding-right: 3rem; 
+    text-align: center;
+    margin-bottom: 0.8rem;
+    h1 {
+        font-size: 2.3rem;
+        color: $titulo-color;
+        font-weight: 800;
+        padding: 0.0rem;
+        margin: 0rem;
+    }
+    p {
+        font-weight: 600;
+
+    }
+    .btn-pink {
+        background-color: $lilac;
+        border: beige;
+    }
+    .btn-pink:hover {
+        background-color: $pink;
+    }
+}
+/* cuerpo */
+div.separacion {
+    height: 2vh;
+    background-color: $soc-color;
+}
+section#petalsfa {
+    height: 130vh;
+    overflow: hidden;    
+}
+div.petalsfa__txt{
+    background-color: #EABCD8;    
+    padding: 2rem; 
+    height: 70vh;
+    p.bio {
+        font-size: 0.8rem;
+    }
+}
+div.petalsfa__img{
+    background-image: url(../img/Petals.jpg);
+    background-size: 45rem;
+    height: 60vh;
+}
+section#hayleybio {
+    @extend section#petalsfa ;
+}
+div.hayleybio__txt{
+    @extend div.petalsfa__txt ;
+    background-color: #FF8CC6;
+    p.bio {
+        font-size: 0.8rem;
+    }
+}
+div.hayleybio__img{
+    @extend div.petalsfa__img ;
+    background-image: url(../img/fondo-violeta.jpg);
+    background-position-y: 40rem;
+}

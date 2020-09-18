@@ -1,0 +1,67 @@
+/*Contact sectiom*/
+body.pag-contacto {
+    background-color: $bg-body;    
+}
+.contact__form{
+    background:$bg-beige;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact__form__group {
+    margin-bottom: 1rem;
+}
+.contact__form__img{
+    text-align: center;
+}
+.contact__form__img {
+    img{
+        width: 11%;
+        margin-top: -3%;
+        transform: rotate(29deg);
+    }
+}
+.contact__form {
+    form{        
+        padding: 0% 14% 14% 14%;
+        .row{
+            margin-bottom: -7%;
+        }
+        input.contact__form__group__ctrl, textarea.contact__form__group__ctrl {
+            font-family:$fnt-txt;
+            background-color: $bg-color ;
+            border-radius: 0rem;
+            padding: 0.1rem 0.375rem 0.1rem 0.75rem;
+            border: 1px solid #ced4da;
+            width: 100%;
+        }
+    }
+    h3{
+        @extend h1 ;
+        margin-bottom: 2.3rem;
+        margin-top: 1rem ;
+    }
+    .contact__form__group__btn {
+        width: 50%;
+        border: none;
+        padding: 1.5%;
+        background: $btn-bg;;
+        font-weight: 600;
+        color: #fff;
+    }
+}
+.contact__form__group__btn {
+    border-radius: 0.2rem;
+}
+.contact__form__group__btn:hover{    
+    background-color: $pink;
+    border: none;
+}
+.container.contact__form {
+    margin-top: 7rem;
+    margin-bottom: 12vh;
+}
+.container.gracias {
+    margin-bottom: 30vh;
+}
+/*fin contacto*/
