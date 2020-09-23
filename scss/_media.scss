@@ -134,7 +134,7 @@
         width: 580px;
     }
 }
-@media (min-height: 928px) {    
+@media (min-height: 928px) and (orientation : portrait) {    
     h2 {
         font-size: 2.8rem;
         font-family: $fnt-head;
