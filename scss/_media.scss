@@ -1,3 +1,9 @@
+@media (orientation: portrait) {
+    #vinylact {
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media only screen and (min-width: 576px) and (max-width: 767px) {   
     .hero {
         h1 {
@@ -14,6 +20,9 @@
     }  
     iframe.remix {
             width: 450px;
+    }
+    .flipcontainer{
+        height: 70vh;
     }
 }    
 @media only screen and (min-width: 768px){          
@@ -75,6 +84,11 @@
     iframe.remix {
         width: 350px;
     }
+    .flipcontainer{
+        width: 33%;
+        height: 40vh;
+        background: none;
+    }
 }
 @media (min-width: 1020px) {
     iframe.remix {
@@ -87,10 +101,16 @@
             text-align: justify;            
         }  
     }
+    .flipcontainer{
+        height: 50vh;
+    }
 }
 @media (min-width: 1280px) {    
     h2 {
         font-size: 2.8rem;
+    }
+    #banner {
+        background-size: cover;
     }
     .hero {
         h1 {
@@ -132,6 +152,48 @@
     }
     iframe.remix {
         width: 580px;
+    }
+    .flipcontainer{
+        height: 70vh;
+    }
+}
+@media (min-width: 1440px) {    
+    h2 {
+        font-size: 4rem;
+    }
+    .hero {
+        p {
+        font-size: 2rem;
+        }
+    }
+    #banner {
+        background-size: cover;
+    }
+    div.petalsfa__txt, div.hayleybio__txt{
+        height: 90vh;
+        p.bio {
+            font-size: 1.6rem;
+        }
+    }
+    div.petalsfa__img {        
+        background-size: 50%;
+    }
+    div.hayleybio__img {
+        background-size: 50%;
+    }
+    #banner {
+        background-position: right;
+    }
+    form {
+        h3 {
+        font-size: 3rem;    
+        }
+    }
+    iframe.remix {
+        width: 580px;
+    }
+    .flipcontainer{
+        height: 80vh;
     }
 }
 @media (min-height: 928px) and (orientation : portrait) {    
@@ -176,5 +238,16 @@
     }
     .separation-pic.img-3, .separation-pic.img-2, .separation-pic.img-1 {
         background-position-x: center;
+    }
+}
+@media (max-width: 768px) and (orientation: landscape){          
+    #vinylact {
+        display: flex;
+        flex-direction: row;
+    }
+    .flipcontainer{
+        width: 33%;
+        height: 80vh;
+        background: none;
     }
 }
