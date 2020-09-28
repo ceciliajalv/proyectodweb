@@ -3,6 +3,47 @@
         display: flex;
         flex-direction: column;
     }
+    iframe.youtube {
+        height: 30vh;
+    }
+}
+@media (orientation: landscape) {
+    iframe.youtube {
+        height: 80vh;
+    }
+}
+@media only screen and (max-width: 340px) and (max-height: 650px) {
+    .hero {
+        height: 55vh;
+        padding: 0rem 1rem 1rem 1rem;
+        text-align: center;
+        h1 {
+            font-size: 2.2rem;
+            color: $titulo-color;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }        
+    }
+    section#petalsfa, section#hayleybio{
+        height: 145vh;
+    }
+    div.petalsfa__txt, div.hayleybio__txt{
+        height: 90vh;
+        p.bio {
+            font-size: 0.8rem;
+        }
+    }
+    div.petalsfa__img, div.hayleybio__img{
+        background-size: 23rem;
+        height: 55vh;
+    }
+}
+@media only screen and (min-width: 341px) {
+    div.petalsfa__img, div.hayleybio__img{
+        background-size: 30rem;
+        height: 55vh;
+        background-position-y: 0rem;
+    }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {   
     .hero {
@@ -24,11 +65,15 @@
     .flipcontainer{
         height: 70vh;
     }
+    .caja-cita {
+        .citas {
+            p {
+                font-size: 1.1rem;
+            }
+        }
+    }
 }    
 @media only screen and (min-width: 768px){          
-    h2 {
-        font-size: 2rem;
-    }
     .hero {
         h1 {
             font-size: 3rem;
@@ -41,8 +86,7 @@
     div.petalsfa__txt, div.hayleybio__txt{
         height: 90vh;
         p.bio {
-            font-size: 1rem;
-            margin-left: 2rem;
+            margin-left: 1.5rem;
         }  
     }
     div.petalsfa__img {
@@ -63,7 +107,7 @@
         background-position: right;
     }    
     form {
-        h3 {
+        h1 {
             font-size: 3rem;
         }    
     }
@@ -90,13 +134,21 @@
         background: none;
     }
 }
+@media (min-width: 900px) {
+    div.petalsfa__txt, div.hayleybio__txt{
+        p.bio {
+            font-size: 1rem;
+            margin-left: 2rem;
+        }  
+    }
+}
 @media (min-width: 1020px) {
     iframe.remix {
         width: 460px;
     }
     div.petalsfa__txt, div.hayleybio__txt{        
         p.bio {
-            margin-left: 1rem;
+            margin-left: 2rem;
             margin-right: 0.5rem;
             text-align: justify;            
         }  
@@ -136,7 +188,7 @@
     div.hayleybio__img {       
         background-color: #FF8CC6;
         height: 90vh;
-        background-size: 100vh;
+        background-size: contain;
         background-attachment: fixed;
         background-position-x: right;
         background-position-y: top;
@@ -146,7 +198,7 @@
         background-position: right;
     }
     form {
-        h3 {
+        h1 {
         font-size: 3rem;    
         }
     }
@@ -156,14 +208,26 @@
     .flipcontainer{
         height: 70vh;
     }
+    .caja-cita {
+        .citas {
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
 }
 @media (min-width: 1440px) {    
     h2 {
         font-size: 4rem;
     }
     .hero {
+        height: 50vh;
+        width: 53%;
+        h1 {
+            font-size: 4.2rem;
+        }
         p {
-        font-size: 2rem;
+            font-size: 2rem;
         }
     }
     #banner {
@@ -172,28 +236,42 @@
     div.petalsfa__txt, div.hayleybio__txt{
         height: 90vh;
         p.bio {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
         }
     }
     div.petalsfa__img {        
-        background-size: 50%;
+        background-size: 100vh;
     }
     div.hayleybio__img {
         background-size: 50%;
+        background-position-y: bottom;
     }
     #banner {
         background-position: right;
     }
     form {
-        h3 {
-        font-size: 3rem;    
+        h1 {
+        font-size: 4rem;    
         }
     }
+    .musicacont {
+        max-width: 2000px;
+    }
+    h2.musica {
+        font-size: 3rem;
+    }
     iframe.remix {
-        width: 580px;
+        width: 100%;
     }
     .flipcontainer{
         height: 80vh;
+    }
+    .caja-cita {
+        .citas {
+            p {
+                font-size: 1.5rem;
+            }
+        }
     }
 }
 @media (min-height: 928px) and (orientation : portrait) {    
@@ -228,8 +306,15 @@
         background-size: cover;
         background-position: right;
     }
+    #productos {
+        div {
+            .card-merch {    
+                height: 22rem;
+            }
+        }
+    }
     form {
-        h3 {
+        h1 {
         font-size: 3rem;    
         }
     }
@@ -238,6 +323,32 @@
     }
     .separation-pic.img-3, .separation-pic.img-2, .separation-pic.img-1 {
         background-position-x: center;
+    }
+    .caja-cita {
+        .citas {
+            p {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+@media (min-height: 1280px) and (orientation : portrait) {    
+    #productos {
+        height: 82vh;
+        div {
+            .card {
+                width: 100%;
+            }
+            .card-merch {    
+                height: 22rem;
+            }
+            .card-merch.hoodie-rage {
+                background-size: 100%;
+            }
+            .card-merch.seed-note {
+                background-size: 86%;
+            }
+        }
     }
 }
 @media (max-width: 768px) and (orientation: landscape){          
