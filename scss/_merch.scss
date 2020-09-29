@@ -19,15 +19,15 @@
             }
             .nombre-producto:hover {
                 background-color: rgba(139, 84, 128, 0.7);
-                color: beige;
+                color: $beige;
             }
             .btn-beige {
-                border-color: black;
-                color: black;
+                border-color: #000000;
+                color: #000000;
             }
             .btn-beige:hover {
-                border-color: beige;
-                color: beige;
+                border-color: $beige;
+                color: $beige;
                 background-color: rgba(139, 84, 128, 0.7);
             }
         }

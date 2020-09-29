@@ -33,17 +33,43 @@
             font-size: 0.8rem;
         }
     }
-    div.petalsfa__img, div.hayleybio__img{
+    div.petalsfa__img{
+        background-size: 25rem;
+        height: 55vh;
+    }
+    div.hayleybio__img{
         background-size: 23rem;
         height: 55vh;
+        background-position-y: top;
+    }
+    .btncontainer {
+        button.flipbtn {
+            font-size: 1.4rem;
+            transform: translate(0rem, -1rem);
+        }
+    } 
+    .navbar-brand {
+            width: 200px;   
+            img{
+                width: 90%;
+            }         
     }
 }
 @media only screen and (min-width: 341px) {
-    div.petalsfa__img, div.hayleybio__img{
+    div.petalsfa__img{
         background-size: 30rem;
-        height: 55vh;
+        background-position-y: bottom;
+    }
+    div.hayleybio__img{
+        background-size: 30rem;
         background-position-y: 0rem;
     }
+    .btncontainer {
+        button.flipbtn {
+            font-size: 1.4rem;
+            transform: translate(0rem, -1rem);
+        }
+    } 
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {   
     .hero {
@@ -65,11 +91,26 @@
     .flipcontainer{
         height: 70vh;
     }
+    .btncontainer {
+        button.flipbtn {
+            font-size: 2rem;
+        }
+    } 
     .caja-cita {
         .citas {
             p {
                 font-size: 1.1rem;
             }
+        }
+    }
+    .contact__form {
+        form{        
+            padding: 0% 14% 14% 14%;
+        }
+        h1{
+            margin-bottom: 2.3rem;
+            margin-top: 1rem;
+            font-size: 3rem;
         }
     }
 }    
@@ -132,6 +173,17 @@
         width: 33%;
         height: 40vh;
         background: none;
+    }
+    .container.contactate {
+        h3{
+            font-size: 1.75;
+        }
+        .contact-block {
+            padding-left: 2rem;
+        }
+        .contact-block:last-child {
+            padding-left: 9rem;
+        }
     }
 }
 @media (min-width: 900px) {
@@ -208,6 +260,11 @@
     .flipcontainer{
         height: 70vh;
     }
+    .btncontainer {
+        button.flipbtn {
+            transform: translate(0rem, 0.5rem);
+        }
+    } 
     .caja-cita {
         .citas {
             p {

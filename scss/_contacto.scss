@@ -23,7 +23,7 @@ body.pag-contacto {
 }
 .contact__form {
     form{        
-        padding: 0% 14% 14% 14%;
+        padding: 0% 4% 14% 4%;
         .row{
             margin-bottom: -7%;
         }
@@ -40,6 +40,8 @@ body.pag-contacto {
         @extend h1 ;
         margin-bottom: 2.3rem;
         margin-top: 1rem ;
+        font-size: 2rem;
+        padding: 0rem;
     }
     .contact__form__group__btn {
         width: 50%;
@@ -63,5 +65,35 @@ body.pag-contacto {
 }
 .container.gracias {
     margin-bottom: 30vh;
+}
+.container.contactate {
+    h2{
+        color: $titulo-color;
+        font-weight: 700;
+        margin-bottom: 2.5rem;
+    }
+    h3{
+        color: $titulo-color;
+        font-size: 1.3rem;
+    }
+    p {
+        margin-bottom: 7rem;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    a {
+        color: $pink;
+    }
+    .contact-block {
+        padding-left: 3rem;
+    }
+}
+.gracias {
+    h3 {
+        text-align: center;
+        font-size: 2rem;
+        color: $titulo-color
+    }
 }
 /*fin contacto*/

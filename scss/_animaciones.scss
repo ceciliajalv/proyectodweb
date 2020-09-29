@@ -55,7 +55,7 @@
         letter-spacing: 0.2rem;
         background: none;
         border-radius: 1rem;
-        transform: translate(0rem, 1rem);
+        transform: translate(0rem, -1rem);
         text-transform: uppercase;
         font-weight: 900;
     }
@@ -63,4 +63,12 @@
         color: $bg-color;
         border: solid 3px $bg-color;
     }
+    button.flipbtn:hover {
+        background-color: rgba(139, 84, 128, 0.3);
+    }
+    button.btnlight:hover {
+        background-color: rgba(239, 214, 210, 0.3);
+    }
 }
+
+/*fin tarjeta vinilo*/
