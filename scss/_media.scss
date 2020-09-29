@@ -240,7 +240,7 @@
     div.hayleybio__img {       
         background-color: #FF8CC6;
         height: 90vh;
-        background-size: 50%;
+        background-size: 60%;
         background-attachment: fixed;
         background-position-x: right;
         background-position-y: top;
@@ -325,7 +325,7 @@
     }
     .btncontainer {
         button.flipbtn {
-            transform: translate(0rem, 2rem);
+            transform: translate(0rem, 0rem);
         }
     } 
     .caja-cita {
@@ -424,3 +424,45 @@
         background: none;
     }
 }
+@media (max-aspect-ratio: 5/2) and (orientation: landscape) {
+    .flipcontainer{
+        height: 80vh;
+    }
+}
+@media (aspect-ratio: 5/3) and (orientation: landscape) {
+    .flipcontainer{
+        height: 60vh;
+    }
+}
+@media (max-aspect-ratio: 8/5) and (min-aspect-ratio:4/3)  and (min-width:768px) and (orientation: landscape) {
+    .flipcontainer{
+        height: 50vh;
+    }
+}
+@media (min-aspect-ratio: 4/3) and (max-aspect-ratio:6/5)  and (max-width:768px) and (orientation: portrait) {
+    .flipcontainer{
+        height: 65vh;
+    }
+}
+@media (max-aspect-ratio:1/1) and (max-width:768px) and (orientation: portrait) {
+    .flipcontainer{
+        height: 75vh;
+        margin-bottom: 1rem;
+    }
+}
+@media (min-aspect-ratio:1/1) and (max-aspect-ratio:11/8)  and (max-width:1280px) and (orientation: landscape) {
+    .flipcontainer{
+        height: 45vh;
+    }
+}
+@media (min-aspect-ratio:15/8)  and (max-width:768px) and (orientation: portrait) {
+    .flipcontainer{
+        height: 55vh;
+    }
+}
+@media (min-aspect-ratio: 1/1) and (max-aspect-ratio:4/3)  and (min-width:768px) and (orientation: landscape) {
+    .flipcontainer{
+        height: 40vh;
+    }
+}
+
