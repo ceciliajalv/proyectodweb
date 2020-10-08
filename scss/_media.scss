@@ -55,6 +55,16 @@
             }         
     }
 }
+@media (max-width: 420px) {
+    .contact__form__img img, .contact__form__img img.error {
+        width: 60px;
+    }
+    .container.contact__form {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+}
 @media only screen and (min-width: 341px) {
     div.petalsfa__img{
         background-size: 30rem;
@@ -179,10 +189,15 @@
             font-size: 1.75;
         }
         .contact-block {
-            padding-left: 2rem;
+            padding-left: 7rem;
         }
         .contact-block:last-child {
             padding-left: 9rem;
+        }
+    }
+    .gracias {
+        h3 {
+            font-size: 2rem;
         }
     }
 }
