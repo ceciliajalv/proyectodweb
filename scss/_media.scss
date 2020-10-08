@@ -124,7 +124,7 @@
         }
     }
 }    
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 672px) {
     div.social {
         padding: 1rem;
         width: 20rem;
@@ -405,6 +405,9 @@
             }
         }
     }
+    div.social {
+        width: 30rem;
+    }
 }
 @media (min-height: 800px) {
     #footers {
@@ -468,6 +471,14 @@
             }
         }
     }
+    .container.contactate {
+        .contact-block {
+            padding-left: 4rem;
+        }
+        .contact-block:last-child {
+            padding-left: 5rem;
+        }
+    }
 }
 @media (min-height: 1280px) and (orientation : portrait) {    
     #productos {
@@ -485,6 +496,14 @@
             .card-merch.seed-note {
                 background-size: 86%;
             }
+        }
+    }
+    .container.contactate {
+        .contact-block {
+            padding-left: 7rem;
+        }
+        .contact-block:last-child {
+            padding-left: 9rem;
         }
     }
 }
