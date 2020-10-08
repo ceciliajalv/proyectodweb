@@ -124,6 +124,27 @@
         }
     }
 }    
+@media only screen and (min-width: 640px) {
+    div.social {
+        padding: 1rem;
+        width: 20rem;
+    }
+    div.novedades {
+        width: 50%;
+        form { 
+            width: 100%;
+            input.mailnews {
+                width: 60%;
+            }
+            input.mailnews:focus {
+                width: 68%;
+            }
+            input.btnnews {
+                width: 35%;
+            }
+        }
+    }
+}
 @media only screen and (min-width: 768px){          
     .hero {
         h1 {
@@ -210,6 +231,23 @@
     }
 }
 @media (min-width: 1020px) {
+    div.novedades {
+        width: 50%;
+        form { 
+            width: 70%;
+            input.mailnews {
+                width: 50%;
+                height: 2.2rem ;
+            }
+            input.mailnews:focus {
+                width: 60%;
+            }
+            input.btnnews {
+                width: 25%;
+                height: 2.5rem ;
+            }
+        }
+    }
     iframe.remix {
         width: 460px;
     }
@@ -219,6 +257,12 @@
             margin-right: 0.5rem;
             text-align: justify;            
         }  
+    }
+    div.petalsfa__txt {
+        padding: 0rem 3rem 0rem 0rem;
+    }
+    div.hayleybio__txt {
+        padding: 0rem 3rem 0rem 1rem;
     }
     .flipcontainer{
         height: 50vh;

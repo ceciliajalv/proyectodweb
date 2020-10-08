@@ -38,9 +38,11 @@ body.pag-contacto {
             padding: 0.1rem 0.375rem 0.1rem 0.75rem;
             border: 1px solid #ced4da;
             width: 100%;
+            outline-color: $btn-bg;
         }
         input.contact__form__group__date {
             width: 100%;
+            outline-color: $btn-bg;
         }
     }
     h1{
