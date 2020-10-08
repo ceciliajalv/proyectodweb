@@ -272,6 +272,17 @@
             }
         }
     }
+    .contact__form {
+        form{        
+            input.contact__form__group__date {
+                width: 50%;
+                align-items: flex-end;
+            }
+            label.contact__form__group__label {
+                width: 48.8%;
+            }
+        }
+    }
 }
 @media (min-width: 1440px) {    
     h2 {
@@ -334,6 +345,11 @@
                 font-size: 1.5rem;
             }
         }
+    }
+}
+@media (min-height: 800px) {
+    #footers {
+        position: fixed;
     }
 }
 @media (min-height: 928px) and (orientation : portrait) {    

@@ -3,6 +3,7 @@ footer {
     background-color: $soc-color ;
     margin: 0rem;
     margin-top: 0.5rem;
+    margin-bottom: 0px;
     img {
         height: 1.5rem;
         filter: invert(41%) sepia(34%) saturate(604%) hue-rotate(260deg) brightness(83%) contrast(87%);
@@ -15,5 +16,13 @@ footer {
 div.social {
     padding: 1rem;
     width: 20rem;
+}
+#footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+#footers {
+    @extend #footer ;
 }
 /*fin footer*/

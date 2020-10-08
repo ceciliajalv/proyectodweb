@@ -20,6 +20,10 @@ body.pag-contacto {
         margin-top: -3%;
         transform: rotate(29deg);
     }
+    img.error {
+        @extend img ;
+        transform: rotate(0deg);
+    }
 }
 .contact__form {
     form{        
@@ -33,6 +37,9 @@ body.pag-contacto {
             border-radius: 0rem;
             padding: 0.1rem 0.375rem 0.1rem 0.75rem;
             border: 1px solid #ced4da;
+            width: 100%;
+        }
+        input.contact__form__group__date {
             width: 100%;
         }
     }
