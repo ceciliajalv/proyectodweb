@@ -45,7 +45,7 @@
     .btncontainer {
         button.flipbtn {
             font-size: 1.4rem;
-            transform: translate(0rem, -1rem);
+            transform: translate(0rem, 0rem);
         }
     } 
     .navbar-brand {
@@ -77,7 +77,7 @@
     .btncontainer {
         button.flipbtn {
             font-size: 1.4rem;
-            transform: translate(0rem, -1rem);
+            transform: translate(0rem, 0rem);
         }
     } 
 }
@@ -321,7 +321,7 @@
     }
     .btncontainer {
         button.flipbtn {
-            transform: translate(0rem, 0.5rem);
+            transform: translate(0rem, -0.5rem);
         }
     } 
     .caja-cita {

@@ -35,4 +35,7 @@ header {
         width: 100%; 
     }
 }
+.navbar-toggler:focus {
+    outline-color: $focus-nav;
+}
 /* fin header*/
