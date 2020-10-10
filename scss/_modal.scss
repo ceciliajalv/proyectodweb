@@ -1,0 +1,80 @@
+div.modal-merch {
+    .modal-content {
+        background-color: $bg-body;
+        width: fit-content;
+        .modal-header {
+            h3 {
+                color: $titulo-color;
+                font-family: $fnt-head;
+                font-weight: bolder;  
+            }
+            
+        }
+        .carousel-modal {
+            .modal-img {
+                background-color: $bg-color;
+                height: 100%;
+            }
+            .seeds-car {
+                padding-bottom: 5%;
+                padding-top: 5%;
+            }
+            .w-90 {
+                width: 90%;
+            }
+        }
+        .form-compra {
+            form {
+                padding-left: 10%;
+                width: 70%;
+                .selecciones-compra {
+                    width: 100%;
+                }
+                label {
+                    color: #000000;
+                    margin-top: 1rem;
+                }
+                select {
+                    width: 80%;
+                    font-family:$fnt-txt;
+                    background-color: $bg-color ;
+                    border-radius: 0rem;
+                    border: 1px solid #ced4da;
+                    outline-color: $btn-bg;
+                    text-align: center;
+                    height: 2rem;
+                }
+                .btn-comprar {
+                    background-color: $bg-body;
+                    font-weight: 800;
+                    margin-top: 1rem;
+                }
+                .btn-comprar:hover {
+                    background-color: rgba(139, 84, 128, 0.9);
+                }
+            }
+        }
+        
+        p {
+            margin: 0rem 0.5rem 2rem 1rem;
+            color: #000000;
+            font-weight: normal;
+        }
+        .btn-close {
+            border-color: $beige;
+            color: $beige;
+            background-color: rgba(139, 84, 128, 0.7);
+            font-weight: 800;
+        }
+        .btn-close:hover {
+            background-color: rgba(139, 84, 128, 0.9);
+        }
+    }
+    .modal-footer {
+        padding-top: 0rem;
+    }
+}
+.carousel-control-prev {
+    left: 5%;
+}
+    

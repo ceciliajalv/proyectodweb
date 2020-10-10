@@ -216,6 +216,47 @@
             padding-left: 9rem;
         }
     }
+    div.modal-merch {
+        .modal-content {
+            .carousel-modal {
+                .modal-img {
+                    margin-left: 5%;
+                    height: 100%;
+                }
+                .seeds-car {
+                    padding-bottom: 5%;
+                    padding-top: 5%;
+                }
+                .w-90 {
+                    width: 90%;
+                }
+            }
+            .form-compra {
+                form {
+                    padding-left: 10%;
+                    width: 70%;
+                    label {
+                        color: #000000;
+                    }
+                    select {
+                        width: 80%;
+                        height: 2rem;
+                        margin-bottom: 2rem;
+                    }
+                    .btn-comprar {
+                        margin-top: 1rem;
+                        margin-right: 2rem;
+                    }
+                }
+            }
+            p {
+                margin: 2rem 0.5rem 0rem 1rem;
+            }
+        }
+        .modal-footer {
+            padding-top: 0.5rem;
+        }
+    } 
     .gracias {
         h3 {
             font-size: 2rem;

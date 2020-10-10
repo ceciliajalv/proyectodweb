@@ -46,9 +46,78 @@
                     <div class="card h-100 border-primary">
                         <div class="card-body hoodie-rage card-merch d-flex flex-column justify-content-end"">
                             <div class=" nombre-producto">
-                                <h3 class="card-title">Rage Hoodie</h3>
+                                <h3 class="card-title">Buzo Rage</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-outline-secondary btn-beige">$3500</a>
+                                <a href="#modaluno" class="btn btn-outline-secondary btn-beige" data-toggle="modal" data-target="#modaluno">$3500</a>
+                                <div class="modal fade modal-merch" id="modaluno" tabindex="-1" role="dialog" aria-labelledby="modaluno-label" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h3 class="modal-title " id="modaluno-label">Buzo Rage</h3>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body row">
+                                            <div class="order-md-2">
+                                                <p> <strong>$3500</strong><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus laudantium consequatur ab? Facilis, ab nisi.</p>
+                                            </div>
+                                            <div class="row order-md-1">
+                                                <div class="d-flex col-12 col-md-7">
+                                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                                        <div class="carousel-inner carousel-modal" role="listbox">
+                                                        <div class="carousel-item active modal-img">
+                                                            <img class="d-block w-100" src="./img/merch/rage-hoodie.png" alt="Buzo frente">
+                                                        </div>
+                                                        <div class="carousel-item modal-img">
+                                                            <img class="d-block w-100" src="./img/merch/rage-hoodie2.png" alt="Estampa buzo">
+                                                        </div>
+                                                        </div>
+                                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next next-modal" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex col-12 col-md-5 form-compra">
+                                                    <form action="" class="d-flex flex-column align-items-md-center align-items-start justify-content-center selecciones-compra" method="POST">
+                                                        <div class="d-flex flex-row flex-md-column selecciones-compra">
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_cantidad">Cantidad</label>
+                                                                <select name="opcion_cantidad" id="opcion_cantidad" class="purchase">
+                                                                    <option>1</option>
+                                                                    <option>2</option>                  
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                </select>  
+                                                            </div>
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_talle">Talle</label>
+                                                                <select name="opcion_talle" id="opcion_talle" class="purchase">
+                                                                    <option>XS</option>
+                                                                    <option>S</option>                  
+                                                                    <option>M</option>
+                                                                    <option>L</option>
+                                                                    <option>XL</option>
+                                                                    <option>2XL</option>
+                                                                </select> 
+                                                            </div>
+                                                        </div>
+                                                        <input type="submit" name="enviar" value="Comprar" class="btn btn-beige btn-comprar">
+                                                    </form>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-close" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -57,9 +126,73 @@
                     <div class="card h-100 border-primary">
                         <div class="card-body seed-note card-merch d-flex flex-column justify-content-end"">
                             <div class=" nombre-producto">
-                                <h3 class="card-title">Seeds notebook</h3>
+                                <h3 class="card-title">Anotador Seeds</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-outline-secondary btn-beige">$2000</a>
+                                <a href="#modaldos" class="btn btn-outline-secondary btn-beige" data-toggle="modal" data-target="#modaldos">$2000</a>
+                                <div class="modal fade modal-merch" id="modaldos" tabindex="-1" role="dialog" aria-labelledby="modaldos-label" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h3 class="modal-title " id="modaldos-label">Anotador Seeds</h3>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body row">
+                                            <div class="order-md-2">
+                                                <p> <strong>$2000</strong><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus laudantium consequatur ab? Facilis, ab nisi.</p>
+                                            </div>
+                                            <div class="row order-md-1">
+                                                <div class="d-flex col-12 col-md-7">
+                                                    <div id="carouseldos" class="carousel slide" data-ride="carousel">
+                                                        <div class="carousel-inner carousel-modal" role="listbox">
+                                                        <div class="carousel-item active modal-img seeds-car ">
+                                                            <img class="d-block w-90" src="./img/merch/seeds-note.png" alt="Tapa anotador">
+                                                        </div>
+                                                        <div class="carousel-item modal-img seeds-car ">
+                                                            <img class="d-block w-90" src="./img/merch/seeds-note2.png" alt="Interior de anotador con hoja de semillas">
+                                                        </div>
+                                                        </div>
+                                                        <a class="carousel-control-prev" href="#carouseldos" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next next-modal" href="#carouseldos" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex col-12 col-md-5 form-compra">
+                                                    <form action="" class="d-flex flex-column align-items-md-center align-items-start justify-content-center selecciones-compra" method="POST">
+                                                        <div class="d-flex flex-row flex-md-column selecciones-compra">
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_cantidad">Cantidad</label>
+                                                                <select name="opcion_cantidad" id="opcion_cantidad" class="purchase">
+                                                                    <option>1</option>
+                                                                    <option>2</option>                  
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                </select>  
+                                                            </div>
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_talle">Talle</label>
+                                                                <select name="opcion_talle" id="opcion_talle" class="purchase">
+                                                                    <option>Único</option>
+                                                                </select> 
+                                                            </div>
+                                                        </div>
+                                                        <input type="submit" name="enviar" value="Comprar" class="btn btn-beige btn-comprar">
+                                                    </form>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-close" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -70,7 +203,76 @@
                             <div class=" nombre-producto">
                                 <h3 class="card-title">Rage Hoodie</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-outline-secondary btn-beige">$3500</a>
+                                <a href="#modaltres" class="btn btn-outline-secondary btn-beige" data-toggle="modal" data-target="#modaltres">$3500</a>
+                                <div class="modal fade modal-merch" id="modaltres" tabindex="-1" role="dialog" aria-labelledby="modaltres-label" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h3 class="modal-title " id="modaltres-label">Buzo Rage</h3>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body row">
+                                            <div class="order-md-2">
+                                                <p> <strong>$3500</strong><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus laudantium consequatur ab? Facilis, ab nisi.</p>
+                                            </div>
+                                            <div class="row order-md-1">
+                                                <div class="d-flex col-12 col-md-7">
+                                                    <div id="carouseltres" class="carousel slide" data-ride="carousel">
+                                                        <div class="carousel-inner carousel-modal" role="listbox">
+                                                        <div class="carousel-item active modal-img">
+                                                            <img class="d-block w-100" src="./img/merch/rage-hoodie.png" alt="Buzo frente">
+                                                        </div>
+                                                        <div class="carousel-item modal-img">
+                                                            <img class="d-block w-100" src="./img/merch/rage-hoodie2.png" alt="Estampa buzo">
+                                                        </div>
+                                                        </div>
+                                                        <a class="carousel-control-prev" href="#carouseltres" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next next-modal" href="#carouseltres" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex col-12 col-md-5 form-compra">
+                                                    <form action="" class="d-flex flex-column align-items-md-center align-items-start justify-content-center selecciones-compra" method="POST">
+                                                        <div class="d-flex flex-row flex-md-column selecciones-compra">
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_cantidad">Cantidad</label>
+                                                                <select name="opcion_cantidad" id="opcion_cantidad" class="purchase">
+                                                                    <option>1</option>
+                                                                    <option>2</option>                  
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                </select>  
+                                                            </div>
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_talle">Talle</label>
+                                                                <select name="opcion_talle" id="opcion_talle" class="purchase">
+                                                                    <option>XS</option>
+                                                                    <option>S</option>                  
+                                                                    <option>M</option>
+                                                                    <option>L</option>
+                                                                    <option>XL</option>
+                                                                    <option>2XL</option>
+                                                                </select> 
+                                                            </div>
+                                                        </div>
+                                                        <input type="submit" name="enviar" value="Comprar" class="btn btn-beige btn-comprar">
+                                                    </form>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-close" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -79,9 +281,73 @@
                     <div class="card h-100 border-primary">
                         <div class="card-body seed-note card-merch d-flex flex-column justify-content-end"">
                             <div class=" nombre-producto">
-                                <h3 class="card-title">Seeds notebook</h3>
+                                <h3 class="card-title">Anotador Seeds</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-outline-secondary btn-beige">$2000</a>
+                                <a href="#modalcuatro" class="btn btn-outline-secondary btn-beige" data-toggle="modal" data-target="#modalcuatro">$2000</a>
+                                <div class="modal fade modal-merch" id="modalcuatro" tabindex="-1" role="dialog" aria-labelledby="modalcuatro-label" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h3 class="modal-title " id="modalcuatro-label">Anotador Seeds</h3>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body row">
+                                            <div class="order-md-2">
+                                                <p> <strong>$2000</strong><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus laudantium consequatur ab? Facilis, ab nisi.</p>
+                                            </div>
+                                            <div class="row order-md-1">
+                                                <div class="d-flex col-12 col-md-7">
+                                                    <div id="carouselcuatro" class="carousel slide" data-ride="carousel">
+                                                        <div class="carousel-inner carousel-modal" role="listbox">
+                                                        <div class="carousel-item active modal-img seeds-car ">
+                                                            <img class="d-block w-90" src="./img/merch/seeds-note.png" alt="Tapa anotador">
+                                                        </div>
+                                                        <div class="carousel-item modal-img seeds-car ">
+                                                            <img class="d-block w-90" src="./img/merch/seeds-note2.png" alt="Interior de anotador con hoja de semillas">
+                                                        </div>
+                                                        </div>
+                                                        <a class="carousel-control-prev" href="#carouselcuatro" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next next-modal" href="#carouselcuatro" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex col-12 col-md-5 form-compra">
+                                                    <form action="" class="d-flex flex-column align-items-md-center align-items-start justify-content-center selecciones-compra" method="POST">
+                                                        <div class="d-flex flex-row flex-md-column selecciones-compra">
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_cantidad">Cantidad</label>
+                                                                <select name="opcion_cantidad" id="opcion_cantidad" class="purchase">
+                                                                    <option>1</option>
+                                                                    <option>2</option>                  
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                </select>  
+                                                            </div>
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_talle">Talle</label>
+                                                                <select name="opcion_talle" id="opcion_talle" class="purchase">
+                                                                    <option>Único</option>
+                                                                </select> 
+                                                            </div>
+                                                        </div>
+                                                        <input type="submit" name="enviar" value="Comprar" class="btn btn-beige btn-comprar">
+                                                    </form>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-close" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -92,7 +358,76 @@
                             <div class=" nombre-producto">
                                 <h3 class="card-title">Rage Hoodie</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-outline-secondary btn-beige">$3500</a>
+                                <a href="#modalcinco" class="btn btn-outline-secondary btn-beige" data-toggle="modal" data-target="#modalcinco">$3500</a>
+                                <div class="modal fade modal-merch" id="modalcinco" tabindex="-1" role="dialog" aria-labelledby="modalcinco-label" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h3 class="modal-title " id="modalcinco-label">Buzo Rage</h3>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body row">
+                                            <div class="order-md-2">
+                                                <p> <strong>$3500</strong><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus laudantium consequatur ab? Facilis, ab nisi.</p>
+                                            </div>
+                                            <div class="row order-md-1">
+                                                <div class="d-flex col-12 col-md-7">
+                                                    <div id="carouselcinco" class="carousel slide" data-ride="carousel">
+                                                        <div class="carousel-inner carousel-modal" role="listbox">
+                                                        <div class="carousel-item active modal-img">
+                                                            <img class="d-block w-100" src="./img/merch/rage-hoodie.png" alt="Buzo frente">
+                                                        </div>
+                                                        <div class="carousel-item modal-img">
+                                                            <img class="d-block w-100" src="./img/merch/rage-hoodie2.png" alt="Estampa buzo">
+                                                        </div>
+                                                        </div>
+                                                        <a class="carousel-control-prev" href="#carouselcinco" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next next-modal" href="#carouselcinco" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex col-12 col-md-5 form-compra">
+                                                    <form action="" class="d-flex flex-column align-items-md-center align-items-start justify-content-center selecciones-compra" method="POST">
+                                                        <div class="d-flex flex-row flex-md-column selecciones-compra">
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_cantidad">Cantidad</label>
+                                                                <select name="opcion_cantidad" id="opcion_cantidad" class="purchase">
+                                                                    <option>1</option>
+                                                                    <option>2</option>                  
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                </select>  
+                                                            </div>
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_talle">Talle</label>
+                                                                <select name="opcion_talle" id="opcion_talle" class="purchase">
+                                                                    <option>XS</option>
+                                                                    <option>S</option>                  
+                                                                    <option>M</option>
+                                                                    <option>L</option>
+                                                                    <option>XL</option>
+                                                                    <option>2XL</option>
+                                                                </select> 
+                                                            </div>
+                                                        </div>
+                                                        <input type="submit" name="enviar" value="Comprar" class="btn btn-beige btn-comprar">
+                                                    </form>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-close" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -101,9 +436,73 @@
                     <div class="card h-100 border-primary">
                         <div class="card-body seed-note card-merch d-flex flex-column justify-content-end"">
                             <div class=" nombre-producto">
-                                <h3 class="card-title">Seeds notebook</h3>
+                                <h3 class="card-title">Anotador Seeds</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-outline-secondary btn-beige">$2000</a>
+                                <a href="#modalseis" class="btn btn-outline-secondary btn-beige" data-toggle="modal" data-target="#modalseis">$2000</a>
+                                <div class="modal fade modal-merch" id="modalseis" tabindex="-1" role="dialog" aria-labelledby="modalseis-label" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h3 class="modal-title " id="modalseis-label">Anotador Seeds</h3>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body row">
+                                            <div class="order-md-2">
+                                                <p> <strong>$2000</strong><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus laudantium consequatur ab? Facilis, ab nisi.</p>
+                                            </div>
+                                            <div class="row order-md-1">
+                                                <div class="d-flex col-12 col-md-7">
+                                                    <div id="carouselseis" class="carousel slide" data-ride="carousel">
+                                                        <div class="carousel-inner carousel-modal" role="listbox">
+                                                        <div class="carousel-item active modal-img seeds-car ">
+                                                            <img class="d-block w-90" src="./img/merch/seeds-note.png" alt="Tapa anotador">
+                                                        </div>
+                                                        <div class="carousel-item modal-img seeds-car ">
+                                                            <img class="d-block w-90" src="./img/merch/seeds-note2.png" alt="Interior de anotador con hoja de semillas">
+                                                        </div>
+                                                        </div>
+                                                        <a class="carousel-control-prev" href="#carouselseis" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="carousel-control-next next-modal" href="#carouselseis" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex col-12 col-md-5 form-compra">
+                                                    <form action="" class="d-flex flex-column align-items-md-center align-items-start justify-content-center selecciones-compra" method="POST">
+                                                        <div class="d-flex flex-row flex-md-column selecciones-compra">
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_cantidad">Cantidad</label>
+                                                                <select name="opcion_cantidad" id="opcion_cantidad" class="purchase">
+                                                                    <option>1</option>
+                                                                    <option>2</option>                  
+                                                                    <option>3</option>
+                                                                    <option>4</option>
+                                                                </select>  
+                                                            </div>
+                                                            <div class="d-flex flex-column selecciones-compra">
+                                                                <label for="opcion_talle">Talle</label>
+                                                                <select name="opcion_talle" id="opcion_talle" class="purchase">
+                                                                    <option>Único</option>
+                                                                </select> 
+                                                            </div>
+                                                        </div>
+                                                        <input type="submit" name="enviar" value="Comprar" class="btn btn-beige btn-comprar">
+                                                    </form>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-close" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
