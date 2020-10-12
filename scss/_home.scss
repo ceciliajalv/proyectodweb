@@ -61,7 +61,7 @@ section#hayleybio {
 }
 div.hayleybio__txt{
     @extend div.petalsfa__txt ;
-    background-color: #FF8CC6;
+    background-color: $lgt-pink;
     h2 {
         color: $titulo-color;
     }

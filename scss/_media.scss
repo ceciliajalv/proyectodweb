@@ -200,6 +200,11 @@
     iframe.remix {
         width: 350px;
     }
+    .cont_tabs {
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 90%;
+    }
     .flipcontainer{
         width: 33%;
         height: 40vh;
@@ -431,6 +436,15 @@
     iframe.remix {
         width: 100%;
     }
+    .cont_tabs {
+        nav {
+            div {
+                a.nav-item.nav-link, a.nav-item.nav-link.active {
+                    height: 5rem;
+                }
+            }
+        }
+    }
     .flipcontainer{
         height: 80vh;
     }
@@ -598,6 +612,19 @@
 @media (min-aspect-ratio: 1/1) and (max-aspect-ratio:4/3)  and (min-width:768px) and (orientation: landscape) {
     .flipcontainer{
         height: 40vh;
+    }
+}
+@media (min-width: 768px) and (max-width:848px) {
+    .cont_tabs {
+        nav {
+            div {
+                a.nav-item.nav-link, a.nav-item.nav-link.active {
+                   h3 {
+                       font-size: 1.4rem;
+                   }   
+                }
+            }
+        }
     }
 }
 
