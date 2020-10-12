@@ -11,6 +11,13 @@
     iframe.youtube {
         height: 80vh;
     }
+    #productos {
+        div{
+            .card-merch {
+                min-height: 32rem;
+            }
+        }
+    }
 }
 @media only screen and (max-width: 340px) and (max-height: 650px) {
     .hero {
@@ -67,11 +74,11 @@
 }
 @media only screen and (min-width: 341px) {
     div.petalsfa__img{
-        background-size: 30rem;
+        background-size: cover;
         background-position-y: bottom;
     }
     div.hayleybio__img{
-        background-size: 30rem;
+        background-size: cover;
         background-position-y: 0rem;
     }
     .btncontainer {
@@ -88,7 +95,7 @@
         }
     }
     div.petalsfa__img, div.hayleybio__img {
-            background-size: 50rem;
+            background-size: cover;
             height: 70vh;
             background-attachment: fixed;
     }    
@@ -474,19 +481,33 @@
         font-size: 2.8rem;
         font-family: $fnt-head;
     }
-    .hero h1 {
-        font-size: 3.5rem;
+    .hero {
+        min-height: 10rem ;
+        h1 {
+            font-size: 3.5rem;
+        }
     }
     section#petalsfa, section#hayleybio {
         height: 90vh;
     }
     div.petalsfa__txt, div.hayleybio__txt{
-        height: 90vh;
+        height: 40vh;
+        flex: 0 0 100%;
+        max-width: 100%;
+        p.bio {
+            font-size: 1.05rem
+        }
+    }
+    div.petalsfa__txt {
+        order: 1;
     }
     div.petalsfa__img {        
         background-size: 100vh;
         height: 90vh;
         background-attachment: fixed;
+        flex: 0 0 100%;
+        max-width: 100%;
+        order: 2;
     }
     div.hayleybio__img {       
         background-color: #FF8CC6;
@@ -496,6 +517,8 @@
         background-position-x: right;
         background-position-y: top;
         background-repeat: no-repeat;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
     #banner {
         background-size: cover;
@@ -503,8 +526,9 @@
     }
     #productos {
         div {
-            .card-merch {    
-                height: 22rem;
+            .card-merch {   
+                height: 40vh; 
+                max-height: 32rem;
             }
         }
     }
@@ -543,7 +567,7 @@
                 width: 100%;
             }
             .card-merch {    
-                height: 22rem;
+                max-height: 32rem;;
             }
             .card-merch.hoodie-rage {
                 background-size: 100%;
@@ -552,6 +576,9 @@
                 background-size: 86%;
             }
         }
+    }
+    .flipcontainer {
+        height: 40vh;
     }
     .container.contactate {
         .contact-block {
@@ -593,9 +620,9 @@
         height: 65vh;
     }
 }
-@media (max-aspect-ratio:1/1) and (max-width:768px) and (orientation: portrait) {
+@media (max-aspect-ratio:1/1) and (max-width:767px) and (orientation: portrait) {
     .flipcontainer{
-        height: 75vh;
+        height: 65vh;
         margin-bottom: 1rem;
     }
 }
@@ -614,6 +641,15 @@
         height: 40vh;
     }
 }
+@media (max-height: 540px) and (orientation: landscape) {
+    .hero {
+        height: 60vh;
+        min-height: 15rem;
+        h1 {
+            margin: 1rem 1rem 0rem 1rem;
+        }
+    }
+}
 @media (min-width: 768px) and (max-width:848px) {
     .cont_tabs {
         nav {
@@ -627,4 +663,42 @@
         }
     }
 }
-
+@media (max-height: 400px) and (max-width: 768px) and (orientation:landscape) {
+    section#petalsfa {
+        height: 120vh;
+    }
+    section#hayleybio {
+        height: 140vh;
+    }
+    div.petalsfa__txt, div.hayleybio__txt{
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    div.petalsfa__txt {
+        height: 120vh;
+        order: 2;
+    }
+    div.petalsfa__img {
+        background-size: contain;
+        height: 120vh;
+        background-attachment: fixed;
+        flex: 0 0 40%;
+        max-width: 40%;
+        order: 1;
+    }
+    div.hayleybio__txt {
+        order: 1;
+        height: 140vh;
+    }
+    div.hayleybio__img {       
+        background-color: #FF8CC6;
+        height: 140vh;
+        background-size: contain;
+        background-position-x: right;
+        background-position-y: top;
+        background-repeat: no-repeat;
+        flex: 0 0 40%;
+        max-width: 40%;
+        order: 2;
+    }
+}

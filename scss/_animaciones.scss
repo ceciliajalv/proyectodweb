@@ -52,7 +52,7 @@
         font-size: 2rem;
         font-family: $fnt-head;
         color: $titulo-color;
-        border: solid 3px $titulo-color;
+        border: none;
         letter-spacing: 0.2rem;
         background: none;
         border-radius: 1rem;
@@ -63,18 +63,22 @@
     }
     button.btnlight {
         color: $bg-color;
-        border: solid 3px $bg-color;
+        border: none;
     }
     button.flipbtn:hover {
         background-color: rgba(139, 84, 128, 0.3);
+        border: solid 3px $titulo-color;
+        transform: translate(0px, -3px);
     }
     button.btnlight:hover {
         background-color: rgba(239, 214, 210, 0.3);
+        border: solid 3px $bg-color;
+        transform: translate(0px, -3px);
     }
 }
 
 /*fin tarjeta vinilo*/
-/* Entrada izquierda*/
+/* Entrada izquierda páginas contacto*/
 .slide-in-left {
 	-webkit-animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
 	        animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
