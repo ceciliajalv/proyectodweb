@@ -159,7 +159,7 @@
             }
         }        
     }
-    h4.panel-title:active, h4.panel-title:focus-visible {
+    h4.panel-title:active, h4.panel-title:focus, h4.panel-title:focus-within {
         a {
             background-color: $titulo-color;
             color: $beige;
