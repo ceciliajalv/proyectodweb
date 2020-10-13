@@ -11,10 +11,21 @@
     iframe.youtube {
         height: 80vh;
     }
+}
+@media (max-height: 767px) and (max-width: 767px) and (orientation: landscape) {
     #productos {
         div{
             .card-merch {
                 min-height: 32rem;
+            }
+        }
+    }
+}
+@media (max-height: 767px) and (max-width: 991px) and (orientation: landscape) {
+    #productos {
+        div{
+            .card-merch {
+                min-height: 24rem;
             }
         }
     }
@@ -152,6 +163,11 @@
         }
     }
 }
+@media (max-width:768px) {
+    .carousel-control-prev-icon {
+        transform: translateX(-1.5rem);
+    }
+}
 @media only screen and (min-width: 768px){          
     .hero {
         h1 {
@@ -202,7 +218,37 @@
         margin-top: 2rem;
     }
     div.stream {
-        margin-left: 2.5rem
+        margin-left: 2.5rem;
+        .logo-deezer {
+            img {
+                height: 28px;
+            }
+        }
+        .logo-bandcamp {
+            img {
+                height: 30px;
+            }
+        }
+        .logo-apple {
+            img {
+                height: 30px;
+            }
+        }
+        .logo-spotify {
+            img {
+                height: 35px;
+            }
+        }
+        .logo-tidal {
+            img {
+                height: 25px;
+            }
+        }
+        .logo-youtube {
+            img {
+                height: 34px;
+            }
+        }
     }
     iframe.remix {
         width: 350px;
@@ -303,6 +349,13 @@
     }
     iframe.remix {
         width: 460px;
+    }
+    .caja-cita {
+        .citas {
+            p {
+                font-size: 1rem;
+            }
+        }
     }
     div.petalsfa__txt, div.hayleybio__txt{        
         p.bio {
@@ -443,6 +496,38 @@
     iframe.remix {
         width: 100%;
     }
+    div.stream {
+        .logo-deezer {
+            img {
+                height: 42px;
+            }
+        }
+        .logo-bandcamp {
+            img {
+                height: 45px;
+            }
+        }
+        .logo-apple {
+            img {
+                height: 45px;
+            }
+        }
+        .logo-spotify {
+            img {
+                height: 53px;
+            }
+        }
+        .logo-tidal {
+            img {
+                height: 38px;
+            }
+        }
+        .logo-youtube {
+            img {
+                height: 51px;
+            }
+        }
+    }
     .cont_tabs {
         nav {
             div {
@@ -472,9 +557,17 @@
     }
 }
 @media (min-height: 800px) {
+    #productos {
+        div{
+            .card-merch {
+                max-height: 25rem;
+            }
+        }
+    }
     #footers {
         position: fixed;
     }
+    
 }
 @media (min-height: 928px) and (orientation : portrait) {    
     h2 {
