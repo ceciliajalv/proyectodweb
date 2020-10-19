@@ -67,13 +67,9 @@
     }
     button.flipbtn:hover {
         background-color: rgba(139, 84, 128, 0.3);
-        border: solid 3px $titulo-color;
-        transform: translate(0px, -3px);
     }
     button.btnlight:hover {
         background-color: rgba(239, 214, 210, 0.3);
-        border: solid 3px $bg-color;
-        transform: translate(0px, -3px);
     }
 }
 
